@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from egemem.com/theme/mobilekit/preview/component-tabs.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Dec 2019 13:26:02 GMT -->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MobileKit UI</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mobilekit HTML Mobile UI Kit">
+    <meta name="keywords" content="bootstrap, mobile template, cordova, phonegap, mobile, html, responsive" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" sizes="32x32">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <style>
+        .extraHeader {
+            z-index: 1000;
+        }
+
+        .rating {
+
+            display: inline-block;
+
+        }
+
+        .rating {
+
+            display: inline-block;
+
+        }
+
+        .rating {
+
+            position: relative;
+
+        }
+
+        input[type="checkbox"],
+        input[type="radio"] {
+
+            box-sizing: border-box;
+            padding: 0;
+
+        }
+
+        .rating-input {
+
+            display: none;
+
+        }
+
+        .rating-input:checked~.rating-star,
+        .rating:hover .rating-star:hover,
+        .rating:hover .rating-star:hover~.rating-star {
+
+            background-position: 0 0;
+
+        }
+
+        .box_general_3.write_review label {
+
+            font-weight: 500;
+
+        }
+
+        .rating-star,
+        .rating:hover .rating-star {
+
+            cursor: pointer;
+            float: right;
+            display: block;
+            margin-right: 3px;
+            width: 37px;
+            height: 37px;
+            background: url(http://www.ansonika.com/findoctor/img/stars.svg) 0 -38px;
+            background-position-x: 0px;
+            background-position-y: -38px;
+        }
+
+        .wide-block {
+
+            background: none;
+            border-top: 1px solid #dfe4e7;
+            border-bottom: none;
+            padding-left: 16px;
+            padding-right: 16px;
+
+        }
+
+        .comments .item {
+
+            margin: 20px 0;
+            display: block;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- loader -->
+    <div id="loader">
+        <div class="spinner-border text-warning" role="status"></div>
+    </div>
+    <!-- * loader -->
+
+    <!-- App Header -->
+    <div class="appHeader">
+        <div class="left">
+            <a href="javascript:;" class="headerButton goBack">
+                <i class="icon ion-ios-arrow-back"></i>
+            </a>
+        </div>
+        <div class="pageTitle">Profile</div>
+        <div class="right"></div>
+    </div>
+    <!-- * App Header -->
+
+    <!-- Extra Header -->
+    <div class="extraHeader">
+        <ul class="nav nav-tabs style1" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#pilled" role="tab">
+                    Info
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#lined" role="tab">
+                    Review
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- * Extra Header -->
+
+    <!-- App Capsule -->
+    <div id="appCapsule" class="extra-header-active">
+
+
+        <div class="tab-content">
+
+
+            <!-- Info tab -->
+            <div class="tab-pane fade show active" id="pilled" role="tabpanel">
+
+                <div class="section full">
+                    <div class="wide-block pb-2">
+
+                        <ul class="nav nav-tabs lined" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#home11" role="tab">
+                                    About
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#profile12" role="tab">
+                                    More
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content mt-2">
+                            <div class="tab-pane fade show active" id="home11" role="tabpanel">
+
+                                <ul class="listview image-listview media">
+                                    <li>
+                                        <div class="item">
+                                            <div class="imageWrapper">
+                                                <img src="assets/img/sample/photo/1.jpg" alt="image" class="imaged w64">
+                                            </div>
+                                            <div class="in">
+                                                <div>
+                                                    Dhiraj Kahar
+                                                    <div class="text-muted">9867079691</div>
+                                                    <div class="text-muted">Starts From 500Rs</div>
+                                                    <div class="text-muted">* * * * * *</div>
+                                                </div>
+                                                <span class="badge badge-primary">42</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <div class="mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                                    vulputate enim sed elit
+                                    consequat, sed ultricies ligula venenatis. In nec arcu eget neque sodales accumsan
+                                    vel
+                                    et neque.
+                                </div>
+
+                                <div class="cardtitle mt-1">
+                                    Service Provided
+                                </div>
+
+                                <div>
+                                    <span class="badge badge-secondary mt-1">I am vet service provide</span>
+                                    <span class="badge badge-secondary mt-1">I am vet service provide</span>
+                                    <span class="badge badge-secondary mt-1">I am vet service provide</span>
+                                    <span class="badge badge-secondary mt-1">I am vet service provide</span>
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="tab-pane fade" id="profile12" role="tabpanel">
+                                Suspendisse maximus ligula eu ligula iaculis, eu bibendum odio dignissim. Pellentesque
+                                elementum nisl elit, non feugiat risus luctus sit amet.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- * Info tab -->
+
+
+
+            <!-- lined tab  second style -->
+            <div class="tab-pane fade" id="lined" role="tabpanel">
+
+                <div class="section full">
+
+                    <div class="wide-block pb-2">
+                        <a class="btn btn-primary mt-1 float-right" data-toggle="modal"
+                            data-target="#actionSheetForm">Write a Review</a>
+                        <!-- * comments -->
+
+                        <div class="comments">
+
+                            <div class="item">
+                                <div class="image">
+                                    <img src="assets2/img/sample/avatar2.jpg" alt="avatar" class="avatar">
+                                </div>
+                                <div class="content">
+                                    <strong>Igor Fulloway</strong>
+                                    <div class="text">
+                                        Nunc sagittis malesuada urna, ultricies lacinia nisi varius vitae. Aliquam sit
+                                        amet egestas
+                                        sapien, nec mollis quam.
+                                    </div>
+                                    <footer>25 Sep 2019</footer>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="image">
+                                    <img src="assets2/img/sample/avatar5.jpg" alt="avatar" class="avatar">
+                                </div>
+                                <div class="content">
+                                    <strong>Thoma Bove</strong>
+                                    <div class="text">
+                                        Duis interdum suscipit ullamcorper.
+                                    </div>
+                                    <footer>25 Sep 2019</footer>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- * comments -->
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- * lined tab -->
+
+
+
+
+        </div>
+
+
+        <!-- Form Action Sheet -->
+        <div class="modal fade action-sheet" id="actionSheetForm" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Please Submit Your Review</h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="action-sheet-content">
+                            <form>
+
+                                <div class="form-group">
+                                    <label class="d-block">Rating</label>
+                                    <span class="rating">
+                                        <input type="radio" class="rating-input" id="5_star" name="rating-input"
+                                            value="5 Stars"><label for="5_star" class="rating-star"></label>
+                                        <input type="radio" class="rating-input" id="4_star" name="rating-input"
+                                            value="4 Stars"><label for="4_star" class="rating-star"></label>
+                                        <input type="radio" class="rating-input" id="3_star" name="rating-input"
+                                            value="3 Stars"><label for="3_star" class="rating-star"></label>
+                                        <input type="radio" class="rating-input" id="2_star" name="rating-input"
+                                            value="2 Stars"><label for="2_star" class="rating-star"></label>
+                                        <input type="radio" class="rating-input" id="1_star" name="rating-input"
+                                            value="1 Star"><label for="1_star" class="rating-star"></label>
+                                    </span>
+                                </div>
+
+
+
+                                <div class="form-group boxed">
+                                    <div class="input-wrapper">
+                                        <label class="d-block">Review</label>
+                                        <textarea id="address5" rows="2" class="form-control"></textarea>
+                                        <i class="clear-input icon ion-ios-close-circle"></i>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group basic">
+                                    <button type="button" class="btn btn-primary btn-block btn-lg"
+                                        data-dismiss="modal">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- * Form Action Sheet -->
+
+        <!-- Form Book Sheet -->
+        <div class="modal fade action-sheet" id="actionBookForm" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Please Select Atleast 1 Service</h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="action-sheet-content">
+                            <form>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customChecka1">
+                                    <label class="custom-control-label" for="customChecka1">Vaccine</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customChecka2">
+                                    <label class="custom-control-label" for="customChecka2">Treatment</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customChecka3">
+                                    <label class="custom-control-label" for="customChecka3">Home Service</label>
+                                </div>
+
+
+
+                                <div class="form-group basic mt-1">
+                                    <button type="button" class="btn btn-primary btn-block btn-lg"
+                                        data-dismiss="modal">Book</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- * Form Action Sheet -->
+
+
+    </div>
+    <!-- appCapsule -->
+
+
+    <!-- App Bottom Menu -->
+    <div class="appBottomMenu">
+        <a href="app-components.html" class="item">
+            <div class="col">
+                <h3>Save</h3>
+            </div>
+        </a>
+
+        <a href="app-components.html" class="item" data-toggle="modal" data-target="#actionBookForm"
+            style="background-color:rgb(255, 166, 0);">
+            <div class="col">
+                <h3>Book Now</h3>
+            </div>
+        </a>
+
+    </div>
+    <!-- * App Bottom Menu -->
+
+    <!-- App Sidebar -->
+    <div class="modal fade panelbox panelbox-left" id="sidebarPanel" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <!-- profile box -->
+                    <div class="profileBox pt-2 pb-2">
+                        <div class="image-wrapper">
+                            <img src="assets/img/sample/avatar/avatar1.jpg" alt="image" class="imaged rounded w36">
+                        </div>
+                        <div class="in">
+                            <strong>Kimmy Tomoaki</strong>
+                            <div class="text-muted">Member</div>
+                        </div>
+                    </div>
+                    <!-- * profile box -->
+                    <div class="listview-title mt-1">Menu</div>
+                    <ul class="listview flush transparent no-line image-listview">
+                        <li>
+                            <a href="app-components.html" class="item">
+                                <div class="icon-box bg-primary">
+                                    <i class="icon ion-ios-home"></i>
+                                </div>
+                                <div class="in">
+                                    Components
+                                    <span class="badge badge-danger">10</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="app-components.html" class="item">
+                                <div class="icon-box bg-danger">
+                                    <i class="icon ion-ios-alarm"></i>
+                                </div>
+                                <div class="in">
+                                    <div>Alarm</div>
+                                    <span class="text-muted">05:20 AM</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="component-messages.html" class="item">
+                                <div class="icon-box bg-success">
+                                    <i class="icon ion-ios-chatbubbles"></i>
+                                </div>
+                                <div class="in">
+                                    <div>Chat</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="component-listview.html" class="item">
+                                <div class="icon-box bg-info">
+                                    <i class="icon ion-ios-list"></i>
+                                </div>
+                                <div class="in">
+                                    <div>Listview</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="app-components.html" class="item" data-dismiss="modal">
+                                <div class="icon-box bg-warning">
+                                    <i class="icon ion-md-close"></i>
+                                </div>
+                                <div class="in">
+                                    <div>Close Sidebar</div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- * App Sidebar -->
+
+    <!-- ///////////// Js Files ////////////////////  -->
+    <!-- Jquery -->
+    <script src="assets/js/lib/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap-->
+    <script src="assets/js/lib/popper.min.js"></script>
+    <script src="assets/js/lib/bootstrap.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="assets/js/plugins/owl-carousel/owl.carousel.min.js"></script>
+    <!-- Base Js File -->
+    <script src="assets/js/base.js"></script>
+
+</body>
+
+
+<!-- Mirrored from egemem.com/theme/mobilekit/preview/component-tabs.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Dec 2019 13:26:02 GMT -->
+
+</html>

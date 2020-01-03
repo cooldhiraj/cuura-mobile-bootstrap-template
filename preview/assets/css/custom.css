@@ -1,0 +1,37 @@
+img {
+
+    vertical-align: middle;
+    border-style: none;
+
+}
+.comments .item {
+  margin: 20px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comments .item .item {
+  margin-bottom: 0;
+}
+.comments .item .image {
+  margin-right: 14px;
+}
+.comments .item .image .avatar {
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+}
+.comments .item .content {
+  line-height: 1.45em;
+}
+.comments .item .content strong {
+  color: #1b2c42;
+  font-weight: 500;
+  display: block;
+  padding-top: 4px;
+  margin-bottom: 6px;
+}
+.comments .item .content footer {
+  margin-top: 6px;
+  font-size: 12px;
+}
